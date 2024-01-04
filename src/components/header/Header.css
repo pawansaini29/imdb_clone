@@ -1,0 +1,55 @@
+.header{
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container{
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+.headerleft, .headerRight{
+    display: flex;
+    align-items: center;
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover{
+    color: #f6c800;
+}
+
+.header__icon{
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar{
+    font-size: 2rem;
+}
+
+.headerRight button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid #f6c800;
+    outline: none;
+    background-color: #f6c800;
+    color: black;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.headerRight button:hover{
+    background-color: #f6c900df;
+    border: 1px solid #f6c800;
+}
+
+
+
